@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-6">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+      <dd>{{show.ta.name}}</dd>
+      <dt>Nick Name</dt>
+      <dd>{{show.ta.nickName}}</dd>
+      <dt>First Name</dt>
+      <dd>{{show.ta.firstName}}</dd>
+      <dt>Last Name</dt>
+      <dd>{{show.ta.lastName}}</dd>
+      <dt>Cohort</dt>
+      <dd>{{show.ta.cohort}}</dd>
+      <dt>Status</dt>
+      <dd>{{show.ta.current ? 'Current' : 'Not Current'}}</dd>
+    </dl>
+  </div>
+  <div class="col-md-6">
+    <img ng-src="{{show.ta.imgUrl}}">
+  </div>
+</div>
